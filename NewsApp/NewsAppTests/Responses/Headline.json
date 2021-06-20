@@ -1,0 +1,266 @@
+{
+   "status":"ok",
+   "totalResults":70,
+   "articles":[
+      {
+         "source":{
+            "id":"business-insider",
+            "name":"Business Insider"
+         },
+         "author":"Sarah Saril, Joe Osborne",
+         "title":"Early Amazon Prime Day 2021 deals: Instant Pots, Roku, and AirPods - Business Insider",
+         "description":"Amazon Prime Day 2021 kicks off tomorrow, but many deals are now available. These are the best deals, including AirPods, Roku Ultra, and Instant Pots.",
+         "url":"https://www.businessinsider.com/early-prime-day-deals-sunday-6-20-2021",
+         "urlToImage":"https://i.insider.com/60a28f161b5cea0019c45505?width=1200&format=jpeg",
+         "publishedAt":"2021-06-20T16:30:31Z",
+         "content":"If you buy through our links, we may earn money from affiliate partners. Learn more.\r\nAmazon Prime Day 2021 begins tomorrow Monday, June 21, but that isn't stopping Amazon and competing retailers fro… [+3462 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Bitcoin.com"
+         },
+         "author":null,
+         "title":"Bearish or Bullish? Bitcoin Traders Argue Over Death Cross Outcome – Market Updates Bitcoin News - Bitcoin News",
+         "description":"Traders have been discussing bitcoin’s recent chart patterns and the infamous death cross pattern has been a topical conversation.",
+         "url":"https://news.bitcoin.com/bearish-or-bullish-bitcoin-traders-argue-over-death-cross-outcome/",
+         "urlToImage":"https://static.news.bitcoin.com/wp-content/uploads/2021/06/shutterstock_1787248598.jpg",
+         "publishedAt":"2021-06-20T15:25:45Z",
+         "content":"On Saturday, cryptocurrency analysts and traders have been discussing bitcoin’s recent chart patterns and the infamous death cross pattern has been a topical conversation. A number of traders believe… [+5877 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Investor's Business Daily"
+         },
+         "author":"Investor's Business Daily",
+         "title":"Dow Jones Futures: Divided Market Rally Flashes Warnings; Amazon Prime Day Due With AMZN Stock Near Buy - Investor's Business Daily",
+         "description":"Amid a volatile market, the Dow and S&P 500 fell below 50-day lines. Amazon leads 5 stocks near buys with Prime Day on tap.",
+         "url":"https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-warnings-amazon-prime-day-amzn-stock-near-buys-bitcoin-pirce/",
+         "urlToImage":"https://www.investors.com/wp-content/uploads/2017/10/stock-sailing-rough-adobe.jpg",
+         "publishedAt":"2021-06-20T14:04:00Z",
+         "content":"Dow Jones futures will open Sunday evening, along with S&amp;P 500 futures and Nasdaq futures. That follows a wild week for the stock market rally, in which the Nasdaq held near highs while the Dow J… [+11813 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Fox Business"
+         },
+         "author":"Jonathan Garber",
+         "title":"Stock market's most popular trade faces 'perfect storm' - Fox Business",
+         "description":"Wall Street’s favorite trade of the year is facing a “perfect storm” as the Federal Reserve prepares to exit the emergency measures put in place during the pandemic, according to Bank of America.",
+         "url":"https://www.foxbusiness.com/markets/stock-market-most-popular-trade-being-turned-upside-down",
+         "urlToImage":"https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2017/11/0/0/rtx260gn.jpg?ve=1&tl=1",
+         "publishedAt":"2021-06-20T14:03:50Z",
+         "content":"Wall Street’s favorite trade of the year is facing a \"perfect storm\" as the Federal Reserve prepares to exit the emergency measures put in place during the pandemic, according to Bank of America. \r\nT… [+2318 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"CNBC"
+         },
+         "author":"Eric Rosenbaum",
+         "title":"'Electrification is a given,' says Harley-Davidson CEO Jochen Zeitz, but HOG's success in EVs is less certain - CNBC",
+         "description":"Harley-Davidson is up under new CEO Jochen Zeitz and he says the brand's success will come down to 'desirability' and, for some consumers, that means electric.",
+         "url":"https://www.cnbc.com/2021/06/20/electrification-is-a-given-harley-ceo-on-future-of-riding-.html",
+         "urlToImage":"https://image.cnbcfm.com/api/v1/image/105565304-154177722297218_livewire_17.jpg?v=1606309430",
+         "publishedAt":"2021-06-20T13:35:10Z",
+         "content":"It's been a typical market view in recent history that when a European oil major invests in renewable energy, like wind or solar, while ExxonMobil stays away, the decision is as much about being a Eu… [+9070 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"CNBC"
+         },
+         "author":"Sarah O'Brien",
+         "title":"Heading back to work after retiring? That cash may impact the rest of your financial life - CNBC",
+         "description":"While extra money may allow you to leave more in your retirement account so it can continue to grow, it may negatively affect other financial considerations.",
+         "url":"https://www.cnbc.com/2021/06/20/how-returning-to-work-after-retiring-impacts-your-financial-life.html",
+         "urlToImage":"https://image.cnbcfm.com/api/v1/image/104556537-worry.jpg?v=1532563810",
+         "publishedAt":"2021-06-20T13:15:02Z",
+         "content":"It's not uncommon to want to return to work after retiring.\r\nWhether for financial reasons or personal fulfillment, many older Americans find that retirement isn't working for them. Yet before you ma… [+3910 chars]"
+      },
+      {
+         "source":{
+            "id":"cbs-news",
+            "name":"CBS News"
+         },
+         "author":null,
+         "title":"How mRNA technology is altering vaccine treatments - CBS News",
+         "description":"Using messenger ribonucleic acid as a platform for delivering COVID vaccinations is just the beginning, as biotech companies like Moderna are looking at using mRNA to change the way we treat or prevent other diseases.",
+         "url":"https://www.cbsnews.com/news/mrna-technology-messenger-ribonucleic-acid-vaccine-treatments-moderna/",
+         "urlToImage":"https://cbsnews1.cbsistatic.com/hub/i/r/2021/06/19/5ada2c52-7a00-40ff-b443-cc28d9e72034/thumbnail/1200x630/9e34efa52793f7b83b1946374150ddc9/mrna-1280.jpg",
+         "publishedAt":"2021-06-20T13:10:20Z",
+         "content":"Back in January, just one month after Moderna's COVID-19 vaccine was authorized for emergency use, fears about a contagious variant strain began to grip the nation – and scientists at Moderna immedia… [+5672 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"CNBC"
+         },
+         "author":"Annie Palmer",
+         "title":"Supply chain snafus could affect what's available to you on Amazon Prime Day - CNBC",
+         "description":"Sellers are grappling with widespread supply chain disruptions just as they gear up for Amazon's Prime Day discount bonanza.",
+         "url":"https://www.cnbc.com/2021/06/20/amazon-prime-day-supply-chain-problems-could-limit-what-you-can-buy.html",
+         "urlToImage":"https://image.cnbcfm.com/api/v1/image/106462142-15852360072282020-03-16t224713z_1944974557_rc2alf9znxjv_rtrmadp_3_health-coronavirus-amazon-com.jpg?v=1585236086",
+         "publishedAt":"2021-06-20T12:39:41Z",
+         "content":"Amazon sellers who had hoped for an easier Prime Day after 2020's pandemic-driven chaos aren't likely to catch a break this year.\r\nThe company's two-day discount bonanza kicks off on Monday. It's com… [+7610 chars]"
+      },
+      {
+         "source":{
+            "id":"cnn",
+            "name":"CNN"
+         },
+         "author":"Anneken Tappe, CNN Business",
+         "title":"The US economy is never going back to 'normal' - CNN ",
+         "description":"The US economy has come a long way since last year's devastating downturn. But a return to \"normal\" may not be possible.",
+         "url":"https://www.cnn.com/2021/06/20/investing/stocks-week-ahead/index.html",
+         "urlToImage":"https://cdn.cnn.com/cnnnext/dam/assets/210618055624-new-york-help-wanted-sign-06-04-2021-super-tease.jpg",
+         "publishedAt":"2021-06-20T12:34:00Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Teslarati"
+         },
+         "author":"https://www.facebook.com/sim.alva",
+         "title":"Tesla Model S Plaid brakes mid-race to avoid getting kicked off drag strip, still dominates - Teslarati",
+         "description":"Tesla owner Emmet Peppers is not a professional racer, but in a recent outing at the SMI Sonoma Raceway, the Model S Plaid owner ended up sandbagging his car constantly to avoid going too fast. Despite this, the Model S Plaid proved to be one frighteningly qu…",
+         "url":"https://www.teslarati.com/tesla-model-s-plaid-drag-race-results-video/",
+         "urlToImage":"https://www.teslarati.com/wp-content/uploads/2021/06/tesla-model-s-plaid-drag-race.jpg",
+         "publishedAt":"2021-06-20T11:47:57Z",
+         "content":"Tesla owner Emmet Peppers is not a professional racer, but in a recent outing at the SMI Sonoma Raceway, the Model S Plaid owner ended up sandbagging his car constantly to avoid going too fast. Despi… [+2414 chars]"
+      },
+      {
+         "source":{
+            "id":"nbc-news",
+            "name":"NBC News"
+         },
+         "author":"Benjy Sarlin",
+         "title":"How a single new Alzheimer's drug could blow up the federal budget - NBC News",
+         "description":"A new pharmaceutical treatment may or may not slow the effects of Alzheimer’s disease, but it’s already causing heartburn in Washington.",
+         "url":"https://www.nbcnews.com/politics/politics-news/how-single-new-alzheimer-s-drug-could-blow-federal-budget-n1271074",
+         "urlToImage":"https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2021_23/3481257/210608-biogen-mn-1420.jpg",
+         "publishedAt":"2021-06-20T11:02:00Z",
+         "content":"WASHINGTON A new pharmaceutical treatment may or may not be effective at slowing the effects of Alzheimers disease, but its already causing heartburn in Washington.\r\nThe FDAs surprise approval of the… [+7386 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Motley Fool"
+         },
+         "author":"Maurie Backman",
+         "title":"Forget Bitcoin. Become a Millionaire This Way - Motley Fool",
+         "description":"Bitcoin can be lucrative but risky. Here's a safer way to grow your wealth.",
+         "url":"https://www.fool.com/investing/2021/06/20/forget-bitcoin-become-a-millionaire-this-way/",
+         "urlToImage":"https://g.foolcdn.com/editorial/images/630851/person-leaning-on-desk-with-computer-monitor-showing-graphs-on-screen_gettyimages-1179583907.jpg",
+         "publishedAt":"2021-06-20T10:36:00Z",
+         "content":"These days, a lot of investors are jumping on the cryptocurrency bandwagon. And if you're thinking of adding digital coins to your portfolio, you may have your eye on Bitcoin (CRYPTO:BTC) specificall… [+2654 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Forbes"
+         },
+         "author":"Billy Bambrough",
+         "title":"Coinbase Cofounder Issues Serious Crypto Price Warning As Bitcoin ‘Death Cross’ Fear Spreads - Forbes",
+         "description":"Coinbase cofounder Fred Ehrsam has warned \"most\" cryptocurrencies and crypto assets \"won't work\" and \"90% of NFTs\" will have \"little to no value in three to five years\"...",
+         "url":"https://www.forbes.com/sites/billybambrough/2021/06/20/coinbase-cofounder-issues-serious-crypto-price-warning-as-bitcoin--death-cross-fear-spreads/",
+         "urlToImage":"https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1063787606%2F0x0.jpg",
+         "publishedAt":"2021-06-20T10:10:00Z",
+         "content":"Bitcoin and cryptocurrency prices have struggled this week with the crypto market's combined value slipping under $1.5 trilliondown from $2.5 trillion in May. \r\nThe bitcoin price, after getting an un… [+4455 chars]"
+      },
+      {
+         "source":{
+            "id":"nbc-news",
+            "name":"NBC News"
+         },
+         "author":"Cyrus Farivar",
+         "title":"Federal regulators warn of risks to firefighters from electrical vehicle fires - NBC News",
+         "description":"Federal regulators warn of risks to firefighters from electrical vehicle fires",
+         "url":"https://www.nbcnews.com/business/autos/federal-regulators-warn-risks-firefighters-electrical-vehicle-fires-n1271084",
+         "urlToImage":"https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2021_24/3484344/210618-electric-vehicle-fires-tesla-mn-1107.jpg",
+         "publishedAt":"2021-06-20T10:06:12Z",
+         "content":"Its the kind of blaze that veteran Chief Palmer Buck of The Woodlands Township Fire Department in suburban Houston compared to a trick birthday candle.\r\nOn April 17, when firefighters responded to a … [+13671 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Women's Health"
+         },
+         "author":"Kelly Corbett",
+         "title":"HGTV’s 2021 Dream Home Winner Has Listed The House For Sale—Here's A Look Inside - Yahoo Lifestyle",
+         "description":"For the past six years, winner Jeff Yanes entered the HGTV Home Giveaways twice daily. Now he's parting ways with his grand prize.",
+         "url":"https://www.womenshealthmag.com/life/a36756517/hgtv-dream-home-winner-2021-home-for-sale/",
+         "urlToImage":"https://s.yimg.com/uu/api/res/1.2/T2O57x8Y8Dc4dKtkfZJVBg--~B/aD03MjI7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/hearst_womens_health_52/270ab1db556f5b900ea5c7c14158ebc9",
+         "publishedAt":"2021-06-20T10:00:00Z",
+         "content":"Photo credit: Robert Peterson\r\nLast month, HGTV announced that Jeff Yanes of Kyle, Texas was the winner of the 2021 Dream Home Sweepstakes. Valued at over $2.8 million, the fully-furnished and brand … [+2023 chars]"
+      },
+      {
+         "source":{
+            "id":"business-insider",
+            "name":"Business Insider"
+         },
+         "author":"Kate Duffy",
+         "title":"More than 41,000 people have signed petitions to stop Jeff Bezos from returning to Earth after his trip to space next month - Yahoo! Voices",
+         "description":"Two petitions aiming to prevent the Amazon CEO's re-entry to Earth after his Blue Origin spaceflight have collected thousands of signatures in only 10 days.",
+         "url":"https://www.businessinsider.com/jeff-bezos-thousands-sign-petitions-return-earth-space-blue-origin-2021-6",
+         "urlToImage":"https://s.yimg.com/uu/api/res/1.2/iNIlO9nZSTnLM6s51fyY7g--~B/aD0xNTAwO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/business_insider_articles_888/bc18dccdbc4f79e1c1fde57306dcd738",
+         "publishedAt":"2021-06-20T09:51:35Z",
+         "content":"Jeff Bezos is set to launch aboard the New Shepard rocket on July 20. Mandel Ngan/AFP via Getty Images; Blue Origin\r\n<ul><li>Petitions to stop Jeff Bezos' Earth re-entry collected more than 41,000 si… [+2556 chars]"
+      },
+      {
+         "source":{
+            "id":"the-wall-street-journal",
+            "name":"The Wall Street Journal"
+         },
+         "author":"Karen Langley",
+         "title":"Facebook, Alphabet Keep Rising; Apple, Netflix Fade - The Wall Street Journal",
+         "description":"After a synchronized surge last year, so-called FAANG stocks peel away as investors look beyond pandemic",
+         "url":"https://www.wsj.com/articles/facebook-alphabet-keep-rising-apple-netflix-fade-11624181583",
+         "urlToImage":"https://images.wsj.net/im-354279/social",
+         "publishedAt":"2021-06-20T09:33:00Z",
+         "content":"Big tech stocks are going their own ways in 2021.\r\nIt is a far cry from last year, when the so-called FAANG stocks took a commanding role in a market driven by the coronavirus pandemic.\r\nAfter the sw… [+1080 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"INSIDER"
+         },
+         "author":"Joshua Zitser",
+         "title":"Cristiano Ronaldo is selling his Trump Tower apartment at a huge $10 million loss, report says - Insider",
+         "description":"The Portuguese soccer star bought the 2,500-square-foot pad for $18.5 million in 2015. He first put it on the market in 2019.",
+         "url":"https://www.insider.com/cristiano-ronaldo-selling-trump-tower-condo-at-huge-10m-loss-2021-6",
+         "urlToImage":"https://i.insider.com/60ceffe53093db001970220e?width=1200&format=jpeg",
+         "publishedAt":"2021-06-20T09:31:13Z",
+         "content":"Cristiano Ronaldo is preparing to sell his Trump Tower apartment at a major loss, according to The Sun.\r\nThe soccer star paid $18.5 million for the 2,500-square-foot pad in 2015, Insider previously r… [+1490 chars]"
+      },
+      {
+         "source":{
+            "id":"the-wall-street-journal",
+            "name":"The Wall Street Journal"
+         },
+         "author":"Ted Mann",
+         "title":"Amtrak’s Commuter Rail Expansion Faces Hurdle From Freight Trains - The Wall Street Journal",
+         "description":"Freight carriers have long resisted calls to make more room on their tracks for passenger trains",
+         "url":"https://www.wsj.com/articles/amtraks-commuter-rail-expansion-faces-hurdle-from-freight-trains-11624181404",
+         "urlToImage":"https://images.wsj.net/im-354180/social",
+         "publishedAt":"2021-06-20T09:30:00Z",
+         "content":"WASHINGTONAmtrak and the Biden administration have a $75 billion plan to transform passenger train travel across Americabut aside from funding, the biggest challenge might be getting the nations frei… [+8042 chars]"
+      },
+      {
+         "source":{
+            "id":"the-wall-street-journal",
+            "name":"The Wall Street Journal"
+         },
+         "author":"Will Parker",
+         "title":"Napa Valley Feud Pits Real-Estate Startup Against Homeowners - The Wall Street Journal",
+         "description":"Pacaso buys high-end homes and sells ownership shares for weekend getaways, alarming some of the neighbors",
+         "url":"https://www.wsj.com/articles/napa-valley-feud-pits-real-estate-startup-against-homeowners-11624181404",
+         "urlToImage":"https://images.wsj.net/im-356025/social",
+         "publishedAt":"2021-06-20T09:30:00Z",
+         "content":"Pattie Dullea stepped out one morning last month in Napa, Calif., to have a word with the young man who pulled up in an antique sports car to tour the home across the street.\r\nYou might not want to b… [+1047 chars]"
+      }
+   ]
+}
