@@ -6,7 +6,6 @@ target 'NewsApp' do
   use_frameworks!
 
   # Pods for NewsApp
-   pod 'Alamofire', '~> 5.4'
 
   target 'NewsAppTests' do
     inherit! :search_paths
