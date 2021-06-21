@@ -7,15 +7,14 @@
 
 import Foundation
 
-enum EndPoint: APIConfiguration {
+enum EndPoint<T: Decodable>: APIConfiguration {
     case topHeadlines
-
-    static var baseURL: URL = APIConstants.Production.baseURL
     var path: String {
         switch self {
         case .topHeadlines:
             return APIConstants.headlines
         }
     }
+    typealias DecodableType = T
     
 }

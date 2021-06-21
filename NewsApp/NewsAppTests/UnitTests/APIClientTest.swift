@@ -43,7 +43,7 @@ class APIClientTest: XCTestCase {
     func test_headlineLoadSuccessfully() throws {
         
         
-        guard let urlRequest = try? EndPoint.topHeadlines.asURLRequest() else {
+        guard let urlRequest = try? EndPoint<Response<Feed>>.topHeadlines.asURLRequest() else {
             XCTFail("Invalid url request")
             return
         }
@@ -54,7 +54,7 @@ class APIClientTest: XCTestCase {
             return (response, self.jsonData)
         }
         var result: Result<[Feed], Error>?
-        let publisher = apiClient.performRequest(endPoint: .topHeadlines, type: Response<Feed>.self)
+        let publisher = apiClient.performRequest(endPoint: EndPoint<Response<Feed>>.topHeadlines)
         publisher
             .map { response -> Result<[Feed], Error> in .success(response.articles) }
             .catch { error -> AnyPublisher<Result<[Feed], Error>, Never> in
@@ -78,7 +78,7 @@ class APIClientTest: XCTestCase {
     func test_headlineLoadFailedWithInternalError() throws {
         
         
-        guard let urlRequest = try? EndPoint.topHeadlines.asURLRequest() else {
+        guard let urlRequest = try? EndPoint<Response<Feed>>.topHeadlines.asURLRequest() else {
             XCTFail("Invalid url request")
             return
         }
@@ -89,7 +89,7 @@ class APIClientTest: XCTestCase {
             return (response, Data())
         }
         var result: Result<[Feed], Error>?
-        let publisher = apiClient.performRequest(endPoint: .topHeadlines, type: Response<Feed>.self)
+        let publisher = apiClient.performRequest(endPoint: EndPoint<Response<Feed>>.topHeadlines)
         publisher
             .map { response -> Result<[Feed], Error> in .success(response.articles) }
             .catch { error -> AnyPublisher<Result<[Feed], Error>, Never> in

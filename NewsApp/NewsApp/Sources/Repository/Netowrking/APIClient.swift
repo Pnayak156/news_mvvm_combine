@@ -14,7 +14,7 @@ final class APIClient {
         self.session = session
     }
     
-    func performRequest<T: Decodable>(endPoint: EndPoint, type: T.Type) -> AnyPublisher<T, Error> {
+    func performRequest<T: Decodable>(endPoint: EndPoint<T>) -> AnyPublisher<T, Error> {
         
         guard let request = try? endPoint.asURLRequest() else {
             return .fail(APIError.invalidRequest)
@@ -34,7 +34,7 @@ final class APIClient {
                 
                 return .just(data)
             }
-            .decode(type: type.self, decoder: JSONDecoder())
+            .decode(type: T.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
         
     }

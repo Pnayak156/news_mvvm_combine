@@ -14,14 +14,32 @@ enum APIError: Error {
     case dataloadingError(statusCode: Int, data: Data)
 }
 
+
+struct EnvironmentInfo {
+    let baseURL: URL
+}
+
 enum APIConstants {
-    enum Production {
-        static let baseURL = URL(string: "https://newsapi.org/v2")!
+    
+    enum Environment {
+        case production(info: EnvironmentInfo)
+        case development(info: EnvironmentInfo)
+        
+        var info: EnvironmentInfo {
+            switch self {
+            case let .production(envInfo), let .development(envInfo):
+                return envInfo
+            }
+        }
     }
+    
+    static var currentEnvironemt = Environment.production(info: EnvironmentInfo(baseURL: URL(string: "https://newsapi.org/v2")!))
+    
     static let headlines = "top-headlines"
 }
 
 protocol RequestConvertible {
+    associatedtype DecodableType: Decodable
     func asURLRequest() throws -> URLRequest
 }
 
@@ -33,7 +51,7 @@ enum HTTPMethod: String {
 
 protocol APIConfiguration: RequestConvertible {
     
-    static var baseURL: URL { get set }
+    var baseURL: URL { get }
     var httpMethod: HTTPMethod { get }
     var queryParameter: Parameters { get }
     var body: Parameters { get }
@@ -55,8 +73,12 @@ extension APIConfiguration {
         [:]
     }
     
+    var baseURL: URL {
+        APIConstants.currentEnvironemt.info.baseURL
+    }
+    
     func asURLRequest() throws -> URLRequest {
-        guard var components = URLComponents(url: Self.baseURL.appendingPathComponent(path), resolvingAgainstBaseURL: true) else {
+        guard var components = URLComponents(url: baseURL.appendingPathComponent(path), resolvingAgainstBaseURL: true) else {
             throw APIError.invalidRequest
         }
         
