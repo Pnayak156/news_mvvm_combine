@@ -26,5 +26,25 @@ struct Source {
 extension Source: Decodable {}
 extension Feed: Decodable {}
 
+extension Source: Equatable {
+    static func == (lhs: Source, rhs: Source) -> Bool {
+        return lhs.id == rhs.id && lhs.name == rhs.name
+    }
+}
+
+extension Feed: Equatable {
+    static func == (lhs: Feed, rhs: Feed) -> Bool {
+        return lhs.author == rhs.author
+            && lhs.author == rhs.author
+            && lhs.title == rhs.title
+            && lhs.description == rhs.description
+            && lhs.url == rhs.url
+            && lhs.urlToImage == rhs.urlToImage
+            && lhs.publishedAt == rhs.publishedAt
+            && lhs.content == rhs.content
+    }
+    
+}
+
 
 

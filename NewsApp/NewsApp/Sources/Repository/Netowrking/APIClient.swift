@@ -39,3 +39,13 @@ final class APIClient {
         
     }
 }
+
+extension APIClient: DataSource {
+    func loadTopHeadlines() -> AnyPublisher<[Feed], Error> {
+        return performRequest(endPoint: EndPoint<Response<Feed>>.topHeadlines)
+            .map { response -> [Feed] in
+            return response.articles
+        }
+            .eraseToAnyPublisher()
+    }
+}
