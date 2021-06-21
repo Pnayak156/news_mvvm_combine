@@ -6,4 +6,19 @@
 //
 
 import Foundation
+import Combine
+
+final class FeedUseCase {
+    let repository: RepositoryType
+    
+    init(repository: RepositoryType) {
+        self.repository = repository
+    }
+}
+
+extension FeedUseCase: FeedUseCaseType {
+    func loadTopHeadlines() -> AnyPublisher<[Feed], Error> {
+        return repository.loadTopHeadlines()
+    }
+}
 

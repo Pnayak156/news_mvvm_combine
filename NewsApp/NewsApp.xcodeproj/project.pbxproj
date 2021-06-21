@@ -27,6 +27,10 @@
 		0BBF9AB22680422100F3D797 /* FeedUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AB12680422100F3D797 /* FeedUseCase.swift */; };
 		0BBF9AB726804DEA00F3D797 /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AB626804DEA00F3D797 /* APIClientMock.swift */; };
 		0BBF9AC426804F2D00F3D797 /* RepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AC326804F2D00F3D797 /* RepositoryTest.swift */; };
+		0BBF9AC92680534B00F3D797 /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AC82680534B00F3D797 /* RepositoryType.swift */; };
+		0BBF9ACE2680536100F3D797 /* FeedUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9ACD2680536100F3D797 /* FeedUseCaseType.swift */; };
+		0BBF9AD32680548400F3D797 /* FeedUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AD22680548400F3D797 /* FeedUseCaseTest.swift */; };
+		0BBF9AD8268055DF00F3D797 /* RepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF9AD7268055DF00F3D797 /* RepositoryMock.swift */; };
 		1CEF4B7EAFEC4C2887314FC2 /* Pods_NewsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D6F695B1FA00691B67F8D3 /* Pods_NewsAppTests.framework */; };
 		856621DD711EF86EEB38C005 /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF275CE4CE92EB99406202AE /* Pods_NewsApp.framework */; };
 		F6A016120D3A3E7BC7280A52 /* Pods_NewsApp_NewsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452DC01CB4DB9F68AAB1A588 /* Pods_NewsApp_NewsAppUITests.framework */; };
@@ -76,6 +80,10 @@
 		0BBF9AB12680422100F3D797 /* FeedUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUseCase.swift; sourceTree = "<group>"; };
 		0BBF9AB626804DEA00F3D797 /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
 		0BBF9AC326804F2D00F3D797 /* RepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTest.swift; sourceTree = "<group>"; };
+		0BBF9AC82680534B00F3D797 /* RepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryType.swift; sourceTree = "<group>"; };
+		0BBF9ACD2680536100F3D797 /* FeedUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUseCaseType.swift; sourceTree = "<group>"; };
+		0BBF9AD22680548400F3D797 /* FeedUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUseCaseTest.swift; sourceTree = "<group>"; };
+		0BBF9AD7268055DF00F3D797 /* RepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryMock.swift; sourceTree = "<group>"; };
 		22BDEB682E3408265983FEC8 /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
 		2F4BF41DE3AFF2C35FB74D75 /* Pods-NewsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppTests.release.xcconfig"; path = "Target Support Files/Pods-NewsAppTests/Pods-NewsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		32C8E21E23B7E94810874B36 /* Pods-NewsApp-NewsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp-NewsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NewsApp-NewsAppUITests/Pods-NewsApp-NewsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,6 +219,8 @@
 			children = (
 				0BBF9A9B267FC44E00F3D797 /* Entities */,
 				0BBF9AB12680422100F3D797 /* FeedUseCase.swift */,
+				0BBF9AC82680534B00F3D797 /* RepositoryType.swift */,
+				0BBF9ACD2680536100F3D797 /* FeedUseCaseType.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -247,6 +257,7 @@
 			children = (
 				0BBF9A6E267FB3C600F3D797 /* APIClientTest.swift */,
 				0BBF9AC326804F2D00F3D797 /* RepositoryTest.swift */,
+				0BBF9AD22680548400F3D797 /* FeedUseCaseTest.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -264,6 +275,7 @@
 			children = (
 				0BBF9A79267FB43600F3D797 /* URLProtocolMock.swift */,
 				0BBF9AB626804DEA00F3D797 /* APIClientMock.swift */,
+				0BBF9AD7268055DF00F3D797 /* RepositoryMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -512,6 +524,8 @@
 				0BBF9A4F267F741D00F3D797 /* EndPoint.swift in Sources */,
 				0BBF9AB22680422100F3D797 /* FeedUseCase.swift in Sources */,
 				0BBF9AAD26803FE000F3D797 /* Repository.swift in Sources */,
+				0BBF9ACE2680536100F3D797 /* FeedUseCaseType.swift in Sources */,
+				0BBF9AC92680534B00F3D797 /* RepositoryType.swift in Sources */,
 				0BBF9A12267F6F6500F3D797 /* SceneDelegate.swift in Sources */,
 				0BBF9A4A267F740400F3D797 /* APIClient.swift in Sources */,
 			);
@@ -521,8 +535,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF9AD32680548400F3D797 /* FeedUseCaseTest.swift in Sources */,
 				0BBF9AB726804DEA00F3D797 /* APIClientMock.swift in Sources */,
 				0BBF9A6F267FB3C600F3D797 /* APIClientTest.swift in Sources */,
+				0BBF9AD8268055DF00F3D797 /* RepositoryMock.swift in Sources */,
 				0BBF9A7A267FB43600F3D797 /* URLProtocolMock.swift in Sources */,
 				0BBF9AC426804F2D00F3D797 /* RepositoryTest.swift in Sources */,
 			);

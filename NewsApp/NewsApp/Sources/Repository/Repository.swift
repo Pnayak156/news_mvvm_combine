@@ -18,7 +18,9 @@ final class Repository {
     init(networkDataSource: DataSource) {
         self.networkDataSource = networkDataSource
     }
-    
+}
+
+extension Repository: RepositoryType {
     func loadTopHeadlines() -> AnyPublisher<[Feed], Error> {
         return networkDataSource.loadTopHeadlines()
     }
